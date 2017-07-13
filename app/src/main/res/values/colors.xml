@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303f9f</color>
+    <color name="colorAccent">#ff4081</color>
+    <color name="statusBarColor">#f8bbd0</color>
+    <color name="logoStatusBar">#ffffff</color>
+    <color name="textColor">#f48fb1</color>
+    <color name="primary_dark_material_light">#fce4ec</color>
+    <color name="accent_material_light">#f06292</color>
+    <color name="primary_text_material_light">#f48fb1</color>
+    <color name="app_name_in_menu">#AD1457</color>
+    <color name="background_game_color">#FCE4EC</color>
+    <color name="lines_for_battle_field">#880E4F</color>
+    <color name="next_step_color">#F8BBD0</color>
+    <color name="unclicable_items_color">#E0E0E0</color>
+</resources>

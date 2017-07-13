@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.yuliavorobjeva.newseabattle">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ship1"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ship1"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".RegistrationActivity" />
+        <activity android:name=".BaseForRegistrationActivity" />
+        <activity android:name=".LogoActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".MainMenuActivity">
+
+        </activity>
+        <activity android:name=".LocateShipsActivity"></activity>
+        <activity android:name=".DataBaseActivity" />
+        <activity android:name=".UsersRatingActivity" />
+        <activity
+            android:name=".GameForTwoActivity"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".OnlineGameActivity"
+            android:screenOrientation="landscape" />
+    </application>
+
+</manifest>

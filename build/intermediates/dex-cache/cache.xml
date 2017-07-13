@@ -1,0 +1,248 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="/Users/yuliavorobjeva/Library/Android/sdk/extras/m2repository/com/android/support/constraint/constraint-layout-solver/1.0.2/constraint-layout-solver-1.0.2.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.0"
+        sha1="b9cd8fc6bd15cb915735d34535db30ece0c44603">
+        <dex dex="/Users/yuliavorobjeva/Desktop/NewSeaBattle/app/build/intermediates/pre-dexed/debug/constraint-layout-solver-1.0.2_2b8d1d48f8975ff9b91be58f55f9149180814341.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/yuliavorobjeva/.android/build-cache/b5ddc89b3b355c88fec3b84ab71aea4afe83a6fe/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.0"
+        sha1="44ee06abb66da30f5855e6bf54574e64cdcd982a">
+        <dex dex="/Users/yuliavorobjeva/Desktop/NewSeaBattle/app/build/intermediates/pre-dexed/debug/classes_2604507456db3140f9d3396d15cd6630432d2184.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/yuliavorobjeva/.android/build-cache/0df32d68d4743e4268d9bfb91ec3a44a9c7153e8/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.0"
+        sha1="88246166d5afb106f532f6e6deae683c66b42c89">
+        <dex dex="/Users/yuliavorobjeva/Desktop/NewSeaBattle/app/build/intermediates/pre-dexed/debug/classes_0bb7c0a473f89556db8cfea18e011749abdbde0d.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/yuliavorobjeva/.android/build-cache/9a54dee8df60507fa2b92b667ad727a12b56ba79/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.0"
+        sha1="d4acacbab67243d9eb026ea759aefd401d070f3e">
+        <dex dex="/Users/yuliavorobjeva/Desktop/NewSeaBattle/app/build/intermediates/pre-dexed/debug/classes_ce4dc240618c8cb4d5a64f47578a1cfc6a05bbf5.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/yuliavorobjeva/.android/build-cache/31d28926740324158e4a499a347935f4fd19994e/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.0"
+        sha1="2e92aa0163544a804a0b34f169ca61801770839a">
+        <dex dex="/Users/yuliavorobjeva/Desktop/NewSeaBattle/app/build/intermediates/pre-dexed/debug/classes_9eaefd450574781bca67995c3c6c309b945db9ec.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/yuliavorobjeva/.android/build-cache/5ba4f4a2caefbe5886d5cc1940e17ab4e9c9d41f/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.0"
+        sha1="fcd01fd11233459f546c437ec927e9b61bf7caf1">
+        <dex dex="/Users/yuliavorobjeva/Desktop/NewSeaBattle/app/build/intermediates/pre-dexed/debug/classes_89f21cd2a7e44dace3f8432cd6fbe876c5d06323.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/yuliavorobjeva/.android/build-cache/afc4bffe79a025c7f0d8819f8b377357b656df3a/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.0"
+        sha1="54511008bf7d1aabd871d8d3a26781b3f2bd9617">
+        <dex dex="/Users/yuliavorobjeva/Desktop/NewSeaBattle/app/build/intermediates/pre-dexed/debug/classes_7ee1dd5ef6f77ed1d30ed6e4679c4e56dbde6f58.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/yuliavorobjeva/.android/build-cache/a0b30b7eadaafd901efe1c46b6487dc85595d69a/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.0"
+        sha1="d4ba7399a1a4f5c998b5ce4f6bf33a2e8347820c">
+        <dex dex="/Users/yuliavorobjeva/Desktop/NewSeaBattle/app/build/intermediates/pre-dexed/debug/classes_f9c9af721723bf0b3b7cef234bc4d7eaaa1915d7.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/yuliavorobjeva/.android/build-cache/0af26302a11977aa511688a59daebf59f66a7776/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.0"
+        sha1="b4fa53b1dbc43a65e9cbcbfe25f4abc47264e78c">
+        <dex dex="/Users/yuliavorobjeva/Desktop/NewSeaBattle/app/build/intermediates/pre-dexed/debug/classes_b402629beabb8f1c51bf81140d5ca40338af10e9.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/yuliavorobjeva/.android/build-cache/72ae6fe7f4ae736573ff9b833603d9586b1c3c12/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.0"
+        sha1="8df0e365e40beb151bc42dee20817721a6cab7b0">
+        <dex dex="/Users/yuliavorobjeva/Desktop/NewSeaBattle/app/build/intermediates/pre-dexed/debug/classes_083b6ca1dd65be838de59cbd4705b37a7c0c9de9.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/yuliavorobjeva/.android/build-cache/ded2d1a015f63c99c4cc5a5d7a5e5ba4d572c49c/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.0"
+        sha1="32054268e6c9fdff0c9c5deafafd0bd105120fb6">
+        <dex dex="/Users/yuliavorobjeva/Desktop/NewSeaBattle/app/build/intermediates/pre-dexed/debug/classes_cf2eaea9a360dc7abbabfeac2e0009f2c8a7f4c9.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/yuliavorobjeva/.android/build-cache/2379fe8670f265d5a6896be88c71b8da64eb90b6/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.0"
+        sha1="21160c044ba984fb2e33b833c89a496becb85cfd">
+        <dex dex="/Users/yuliavorobjeva/Desktop/NewSeaBattle/app/build/intermediates/pre-dexed/debug/classes_c9a8480a97f85566fc143c251c597420a0827425.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/yuliavorobjeva/.android/build-cache/f3d92c76279b512f001c940f6d54f60f8b5af56c/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.0"
+        sha1="18d31838aa4fcc768a8a0516e22cc13b94655d89">
+        <dex dex="/Users/yuliavorobjeva/Desktop/NewSeaBattle/app/build/intermediates/pre-dexed/debug/classes_3a1f36215ec433bbfc440b2a5689c53ea26db760.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/yuliavorobjeva/.android/build-cache/322aee1916c092c9ed2712dc1e5d358a0f06d26e/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.0"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="/Users/yuliavorobjeva/Desktop/NewSeaBattle/app/build/intermediates/pre-dexed/debug/classes_d948e1af75d7330cc243d7858f677c1f1fa12598.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/yuliavorobjeva/.android/build-cache/16076a2a346c13a85da5cb5ab096410d463cc493/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.0"
+        sha1="d237556caead5b93d97e18a071059a2c0045978e">
+        <dex dex="/Users/yuliavorobjeva/Desktop/NewSeaBattle/app/build/intermediates/pre-dexed/debug/classes_0605782b77642d7ec5a7ab342fcf51cb020cda64.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/yuliavorobjeva/.android/build-cache/8719446d93dbb24a243a8d54714b3452fd4738b4/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.0"
+        sha1="6178e31397c24ab1bfc09766832cdcf519621eb7">
+        <dex dex="/Users/yuliavorobjeva/Desktop/NewSeaBattle/app/build/intermediates/pre-dexed/debug/classes_480faab07ad047de382c07ac7d66a36a64c7dc9c.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/yuliavorobjeva/.android/build-cache/ecae977c8d4edc5418a266750179eb21dd374034/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.0"
+        sha1="e176fd06c2ad5b50a2f5cb4de6000a83a7cb48f5">
+        <dex dex="/Users/yuliavorobjeva/Desktop/NewSeaBattle/app/build/intermediates/pre-dexed/debug/classes_e6d9200dc813b6df15141f849ec175324ab0cb5a.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/yuliavorobjeva/.android/build-cache/6a409676cb6c43ef1bc7ccd96306c1c315ea1af5/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.0"
+        sha1="9935891f23923f39d002087085d9696568a9f657">
+        <dex dex="/Users/yuliavorobjeva/Desktop/NewSeaBattle/app/build/intermediates/pre-dexed/debug/classes_504a149e771ea5395a5a3f2e9d20d43c205a70f1.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/yuliavorobjeva/.android/build-cache/4642ac22d2345c6e96751463d6571e10e7654f25/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.0"
+        sha1="47471eb19df288158b00b8d9cfa41bce7373f5cc">
+        <dex dex="/Users/yuliavorobjeva/Desktop/NewSeaBattle/app/build/intermediates/pre-dexed/debug/classes_6b522ec2cd68671ca212f88b1faddfbf4f040428.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/yuliavorobjeva/.android/build-cache/b974db8c6500fb9323b2897abacab0b1532382bc/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.0"
+        sha1="e00b71dcf2fbecaf59b0d487d11839522dd7863d">
+        <dex dex="/Users/yuliavorobjeva/Desktop/NewSeaBattle/app/build/intermediates/pre-dexed/debug/classes_1e99f30cc373ea2c84771c0ca338b6c96f161818.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/yuliavorobjeva/.android/build-cache/dad40f809be10a116cf4284d797723b83500f000/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.0"
+        sha1="d695dc4247690369d66c022c6d18190155c61fcd">
+        <dex dex="/Users/yuliavorobjeva/Desktop/NewSeaBattle/app/build/intermediates/pre-dexed/debug/classes_45eb52a4edc92db7de7e3222e4e0f6f392514690.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/yuliavorobjeva/.android/build-cache/8f9552c2700df8a274a085d66e66b480ebdd2f90/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.0"
+        sha1="ec1f195979cc7f1ec94779fa16f1b10aac8aceca">
+        <dex dex="/Users/yuliavorobjeva/Desktop/NewSeaBattle/app/build/intermediates/pre-dexed/debug/classes_b3492e1859511209ec6b5504b943d8626470042e.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/yuliavorobjeva/.android/build-cache/836feac34fdb3843ec1a58274d3d2faed20baba9/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.0"
+        sha1="c4f45092eee6cdf1a5dbd597b2b6819be652ce2e">
+        <dex dex="/Users/yuliavorobjeva/Desktop/NewSeaBattle/app/build/intermediates/pre-dexed/debug/classes_5c22b45991889325034af1b156534cf77fe87ca8.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/yuliavorobjeva/.android/build-cache/222f319d52fa36f0f58b336114639b32be08cfca/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.0"
+        sha1="90095b555b72205db6f9b93aca3cb9978d1e3344">
+        <dex dex="/Users/yuliavorobjeva/Desktop/NewSeaBattle/app/build/intermediates/pre-dexed/debug/classes_d95ada279d667aedf8fc38806cb3a27c76a311fa.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/yuliavorobjeva/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/26.0.0-alpha1/support-annotations-26.0.0-alpha1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.0"
+        sha1="023ee503b631f69511e335a061ea008f8da60f40">
+        <dex dex="/Users/yuliavorobjeva/Desktop/NewSeaBattle/app/build/intermediates/pre-dexed/debug/support-annotations-26.0.0-alpha1_f5e5ba31425b06eefeb24b2cf3d2492660435248.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/yuliavorobjeva/.android/build-cache/6921821f04ef1be32597cbca088298372b51fa4e/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.0"
+        sha1="952944218ecedea1554a513dec0c14d570642843">
+        <dex dex="/Users/yuliavorobjeva/Desktop/NewSeaBattle/app/build/intermediates/pre-dexed/debug/classes_ecda97d1574c90a3334689bc8ed38cb0d011ddf7.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/yuliavorobjeva/.android/build-cache/04772a47557da924ea6566db0c68ff5b0c5255cf/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.0"
+        sha1="8a572a0bd9ea324b099b1761670237bc1be8ba7b">
+        <dex dex="/Users/yuliavorobjeva/Desktop/NewSeaBattle/app/build/intermediates/pre-dexed/debug/classes_7eef4f37ae5c6a264a6d994c6b3ae0d1490e4d28.jar" />
+    </item>
+
+</items>

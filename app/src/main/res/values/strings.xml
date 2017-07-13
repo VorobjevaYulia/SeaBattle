@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">Sea Battle</string>
+    <string name="enter_email">Enter your email: </string>
+    <string name="enter_pass">Password: </string>
+    <string name="sign_in">Sign in</string>
+    <string name="loading">LOADING</string>
+    <string name="new_user">Create user</string>
+    <string name="menu_start">Start game</string>
+    <string name="menu_account">Account</string>
+    <string name="menu_statistics">Statistics</string>
+    <string name="cant">Cant</string>
+    <string name="rotate">rotate</string>
+    <string name="top_50_players">Top 50 players</string>
+    <string name="find_my_position">Find my position</string>
+    <string name="number_of_wins">Number of wins:</string>
+    <string name="enter_your_name">Enter your name:</string>
+    <string name="menu_reiting">REITING</string>
+    <string-array name="types_of_game">
+        <item>Game with friend</item>
+        <item>Online game</item>
+    </string-array>
+    <string name="reset">Reset</string>
+    <string name="ok">ok</string>
+    <string name="first">FIRST PLAYER</string>
+    <string name="second">SECOND PLAYER</string>
+    <string name="place_your_ships">Place your ships</string>
+</resources>

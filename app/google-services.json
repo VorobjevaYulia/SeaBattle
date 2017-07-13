@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "25603275573",
+    "firebase_url": "https://newseabattle-4683b.firebaseio.com",
+    "project_id": "newseabattle-4683b",
+    "storage_bucket": "newseabattle-4683b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:25603275573:android:02bbc25b9daa90b1",
+        "android_client_info": {
+          "package_name": "com.example.yuliavorobjeva.newseabattle"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "25603275573-vh77d4f90g72gh5o9jicq7vorjnhivp3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB0xWqRuEwMeavya_bDIQ38aJ3O8r0OcOw"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
