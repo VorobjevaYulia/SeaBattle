@@ -34,7 +34,7 @@ public class RegistrationActivity extends BaseForRegistrationActivity implements
 
     private FirebaseAuth mAuth;
     private Typeface typeface;
-    //private FirebaseAuth.AuthStateListener mAuthListener;
+    private FirebaseAuth.AuthStateListener mAuthListener;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -53,7 +53,7 @@ public class RegistrationActivity extends BaseForRegistrationActivity implements
 
         mAuth = FirebaseAuth.getInstance();
 
-        sharedPreferences = getPreferences(MODE_PRIVATE);
+        sharedPreferences = getSharedPreferences("pref",MODE_PRIVATE);
         mEmailEditText.setText(sharedPreferences.getString("email", ""));
         mPassEditText.setText(sharedPreferences.getString("pass", ""));
 
@@ -95,19 +95,16 @@ public class RegistrationActivity extends BaseForRegistrationActivity implements
                         if (task.isSuccessful()) {
                             Log.e("my_log", "createUserWithEmail:success");
                             FirebaseUser user = mAuth.getCurrentUser();
-                            SharedPreferences sharedPreferences = getPreferences(MODE_PRIVATE);
+                            SharedPreferences sharedPreferences = getSharedPreferences("pref",MODE_PRIVATE);
                             SharedPreferences.Editor ed = sharedPreferences.edit();
                             ed.putString("email",mEmailEditText.getText().toString());
                             ed.putString("pass", mPassEditText.getText().toString());
                             ed.apply();
 
                             signIn(mEmailEditText.getText().toString(), mPassEditText.getText().toString());
-                            //NameDialog nameDialog = new NameDialog();
-                            //nameDialog.show(getFragmentManager(),"dialog");
-
 
                         } else {
-                            // If sign in fails, display a message to the user.
+
                             Log.e("my_log", "createUserWithEmail:failure", task.getException());
                             Toast.makeText(RegistrationActivity.this, "Authentication failed",
                                     Toast.LENGTH_LONG).show();
@@ -172,7 +169,7 @@ public class RegistrationActivity extends BaseForRegistrationActivity implements
     @Override
     public void onClick(View view) {
         Intent intent = new Intent(this, MainMenuActivity.class);
-        intent.putExtra("email", mEmailEditText.getText());
+        intent.putExtra("email", mEmailEditText.getText().toString());
         if(view.getId() == mCreateUserBtn.getId()) {
             createAccount(mEmailEditText.getText().toString(), mPassEditText.getText().toString());
             startActivity(intent);

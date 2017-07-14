@@ -2,6 +2,18 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.yuliavorobjeva.newseabattle">
 
+
+    <uses-permission
+        android:required="true"
+        android:name="android.permission.ACCESS_WIFI_STATE"/>
+    <uses-permission
+        android:required="true"
+        android:name="android.permission.CHANGE_WIFI_STATE"/>
+    <uses-permission
+        android:required="true"
+        android:name="android.permission.INTERNET"/>
+
+
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ship1"
@@ -12,13 +24,13 @@
         <activity android:name=".RegistrationActivity" />
         <activity android:name=".BaseForRegistrationActivity" />
         <activity android:name=".LogoActivity">
+        </activity>
+        <activity android:name=".MainMenuActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
-        </activity>
-        <activity android:name=".MainMenuActivity">
 
         </activity>
         <activity android:name=".LocateShipsActivity"></activity>
@@ -29,7 +41,9 @@
             android:screenOrientation="landscape" />
         <activity
             android:name=".OnlineGameActivity"
-            android:screenOrientation="landscape" />
+            android:screenOrientation="landscape">
+        </activity>
+
     </application>
 
 </manifest>

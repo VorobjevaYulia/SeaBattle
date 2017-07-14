@@ -16,12 +16,7 @@ import android.widget.Button;
 import android.widget.TextView;
 
 import com.google.firebase.auth.FirebaseAuth;
-import com.google.firebase.database.DataSnapshot;
-import com.google.firebase.database.DatabaseError;
 import com.google.firebase.database.DatabaseReference;
-import com.google.firebase.database.FirebaseDatabase;
-import com.google.firebase.database.ServerValue;
-import com.google.firebase.database.ValueEventListener;
 
 public class MainMenuActivity extends AppCompatActivity implements View.OnClickListener{
 
@@ -41,11 +36,20 @@ public class MainMenuActivity extends AppCompatActivity implements View.OnClickL
     private DatabaseReference mCountOnlineUsers;
     private FirebaseAuth mAuth;
 
+    private String myEmail;
+    private String mEmailForFirebase;
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState)  {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main_menu);
+
+        Intent intent = getIntent();
+//        myEmail = intent.getStringExtra("email");
+  //      myEmail = myEmail.replace('.', '_');
+
+
         mContext = MainMenuActivity.this;
 
         mMainText = (TextView) findViewById(R.id.main_menu_main_text);
@@ -64,6 +68,7 @@ public class MainMenuActivity extends AppCompatActivity implements View.OnClickL
         mStartBtn.setOnClickListener(this);
         mReitingBtn.setOnClickListener(this);
     }
+
 
     @Override
     protected Dialog onCreateDialog(final int id) {
@@ -124,34 +129,7 @@ public class MainMenuActivity extends AppCompatActivity implements View.OnClickL
 
         @Override
         protected Void doInBackground(Void... params) {
-            mDatabase = FirebaseDatabase.getInstance().getReference();
-            mCountOnlineUsers = FirebaseDatabase.getInstance().getReference().child("users_count");
-            mDatabase.child("users/"+1).setValue(FirebaseAuth.getInstance().getCurrentUser().getEmail());
-            final FirebaseDatabase database = FirebaseDatabase.getInstance();
-            final DatabaseReference myConnectionsRef = database.getReference("users/joe/connections");
-            final DatabaseReference lastOnlineRef = database.getReference("/users/joe/lastOnline");
-            final DatabaseReference connectedRef = database.getReference(".info/connected");
 
-            connectedRef.addValueEventListener(new ValueEventListener() {
-                @Override
-                public void onDataChange(DataSnapshot snapshot) {
-
-                    boolean connected = snapshot.getValue(Boolean.class);
-                    if (connected) {
-
-                        DatabaseReference con = myConnectionsRef.push();
-                        con.setValue(Boolean.TRUE);
-
-
-                        con.onDisconnect().removeValue();
-                        lastOnlineRef.onDisconnect().setValue(ServerValue.TIMESTAMP);
-                    }
-                }
-                @Override
-                public void onCancelled(DatabaseError error) {
-                    System.err.println("Ошибка");
-                }
-            });
             return null;
         }
 
@@ -165,4 +143,6 @@ public class MainMenuActivity extends AppCompatActivity implements View.OnClickL
 
         }
     }
+
+
 }

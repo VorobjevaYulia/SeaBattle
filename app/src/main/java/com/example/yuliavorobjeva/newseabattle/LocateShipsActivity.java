@@ -136,7 +136,7 @@ public class LocateShipsActivity extends AppCompatActivity implements OnCellClic
         if( intent.hasExtra("owner")) {
             if(intent.getExtras().get("owner").equals("onlinegame")) {
                 Log.e("mylog", "was started for online.will write new activity and MAKE FIREBASE INFO");
-                Intent intent1 = new Intent(LocateShipsActivity.this, LogoActivity.class);//CHANGE ACTIVITY
+                Intent intent1 = new Intent(LocateShipsActivity.this, OnlineGameActivity.class);//CHANGE ACTIVITY
                 intent1.putExtra("positions1", (Serializable) mCellsController.getCells());
                 Log.e("sended info to activity", mCellsController.makeArr().toString());
                 startActivity(intent1);

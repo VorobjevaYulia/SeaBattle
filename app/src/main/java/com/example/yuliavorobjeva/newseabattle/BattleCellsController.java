@@ -45,4 +45,7 @@ public class BattleCellsController {
     public List<BattleCell> getCells(){
         return mCells;
     }
+
+
+
 }

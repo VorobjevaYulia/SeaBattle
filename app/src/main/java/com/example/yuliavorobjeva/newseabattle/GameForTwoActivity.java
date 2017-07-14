@@ -61,14 +61,15 @@ public class GameForTwoActivity extends AppCompatActivity implements OnBattleCel
         mCellsSecond = (List<Cell>) getIntent().getSerializableExtra("positions2");
 
 
-        for (int i = 0; i < mCellsFirst.size(); i++) {
-            if (mCellsFirst.get(i).getState() == Cell.State.FILLED) {
+
+
+        for(int i = 0; i < mCellsFirst.size(); i++) {
+            if( mCellsFirst.get(i).getState() == Cell.State.FILLED) {
                 mBattleCellFirst.add(new BattleCell(i, BattleCell.State.SHIP));
             } else {
                 mBattleCellFirst.add(new BattleCell(i, BattleCell.State.EMPTY));
             }
         }
-
         for (int i = 0; i < mCellsSecond.size(); i++) {
             if (mCellsSecond.get(i).getState() == Cell.State.FILLED) {
                 mBattleCellSecond.add(new BattleCell(i, BattleCell.State.SHIP));
@@ -109,8 +110,8 @@ public class GameForTwoActivity extends AppCompatActivity implements OnBattleCel
             if (isWinner(mBattleCellsControllerForFirst.getCells())) {
                 Log.e("firts win", "first");
                 showDialog(WINNER_FIRST_DIALOG);
-
             }
+
         } else if (which == 2) {
             mBattleCellsControllerForSecond.performClick(position);
             mBattleFieldAdapterForSecond.updateList(mBattleCellsControllerForSecond.getCells());
@@ -130,6 +131,8 @@ public class GameForTwoActivity extends AppCompatActivity implements OnBattleCel
         }
         return true;
     }
+
+
 
     protected Dialog onCreateDialog(int id) {
         if (id == INFO_DIALOG) {

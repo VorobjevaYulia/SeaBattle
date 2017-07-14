@@ -37,7 +37,7 @@ public class BattleCell implements Serializable{
     }
 
     public enum State {
-        EMPTY, SHIP, MISSED_SHOT, FIRE
+        EMPTY, SHIP, MISSED_SHOT, FIRE, UNKLICKABLE_FIRE, UNKLICKABLE_SHIP, UNKLICKABLE_MISSED, UNKLICKABLE_EMPTY
     }
 
     public void setState(State state) {

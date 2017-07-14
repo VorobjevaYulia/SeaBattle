@@ -10,10 +10,10 @@ import android.widget.ImageButton;
 import java.util.List;
 
 /**
- * Created by yuliavorobjeva on 11.07.17.
+ * Created by yuliavorobjeva on 13.07.17.
  */
 
-public class BattleFieldForTwoAdapter extends RecyclerView.Adapter<BattleFieldForTwoAdapter.ViewHolder> {
+public class BattleFieldForOnlineAdapter extends RecyclerView.Adapter<BattleFieldForOnlineAdapter.ViewHolder>{
 
     private static final int FIELD_SIZE = 100;
 
@@ -24,7 +24,7 @@ public class BattleFieldForTwoAdapter extends RecyclerView.Adapter<BattleFieldFo
     private boolean mIsFilled;
     private boolean mInAvailabilityMode;
 
-    public BattleFieldForTwoAdapter(Context context, List<BattleCell> list, OnBattleCellClickListener onBattleCellClickListener, int which) {
+    public BattleFieldForOnlineAdapter(Context context, List<BattleCell> list, OnBattleCellClickListener onBattleCellClickListener, int which) {
         mContext = context;
         mCellList = list;
         mOnCellClickListener = onBattleCellClickListener;
@@ -37,15 +37,15 @@ public class BattleFieldForTwoAdapter extends RecyclerView.Adapter<BattleFieldFo
     }
 
     @Override
-    public ViewHolder onCreateViewHolder(ViewGroup parent, int viewType) {
+    public BattleFieldForOnlineAdapter.ViewHolder onCreateViewHolder(ViewGroup parent, int viewType) {
 
         View v = LayoutInflater.from(mContext).inflate(R.layout.item_battle_field, parent, false);
-        return new ViewHolder((ImageButton) v);
+        return new BattleFieldForOnlineAdapter.ViewHolder((ImageButton) v);
 
     }
 
     @Override
-    public void onBindViewHolder(BattleFieldForTwoAdapter.ViewHolder holder, int position) {
+    public void onBindViewHolder(BattleFieldForOnlineAdapter.ViewHolder holder, int position) {
 
         BattleCell cell = mCellList.get(position);
         boolean isClickable = false;
@@ -53,7 +53,7 @@ public class BattleFieldForTwoAdapter extends RecyclerView.Adapter<BattleFieldFo
 
         switch (cell.getState()) {
             case FIRE:
-                color = mContext.getResources().getColor(R.color.lines_for_battle_field);
+                color = mContext.getResources().getColor(android.R.color.black);
                 isClickable = false;
                 break;
             case MISSED_SHOT:
@@ -66,7 +66,7 @@ public class BattleFieldForTwoAdapter extends RecyclerView.Adapter<BattleFieldFo
                 isClickable = !mInAvailabilityMode;
                 break;
             case SHIP:
-                color = mContext.getResources().getColor(R.color.background_game_color);
+                color = mContext.getResources().getColor(R.color.lines_for_battle_field);
                 isClickable = true;
                 break;
             case UNKLICKABLE_EMPTY:
@@ -119,6 +119,5 @@ public class BattleFieldForTwoAdapter extends RecyclerView.Adapter<BattleFieldFo
             hImageButton = imageButton;
         }
     }
-
-
 }
+
